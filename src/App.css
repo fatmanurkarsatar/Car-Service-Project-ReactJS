@@ -1,0 +1,74 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+.container{
+  border: 1px solid gray;
+  width: 1000px;
+  height: 500px;
+  margin-top: 100px;
+  border-radius: 10px;
+  border-color: lightgray;
+  background-color: white;
+  opacity: 1.0; 
+}
+
+.input-brands{
+  margin-top: 50px;
+  display: flex;
+  justify-content:center;
+}
+
+.input-brands input{
+  border-radius: 5px;
+  border-color: lightgray;
+  width: 600px;
+}
+
+
+.car-list{
+  margin-top: 20px; 
+  margin-bottom: 30px;  
+  margin-left: 40px;
+}
+
+.car-service{
+  margin-top: 20px; 
+  margin-bottom: 50px;  
+  margin-right: 40px;
+}
+
+.delivered-car{
+  width: 400px;
+  height: 80px;
+  list-style: none;
+  text-align: center;
+}
+
+li{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 5px;
+}
